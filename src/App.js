@@ -1,6 +1,6 @@
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 
-import Counter from './components/Counter';
+import Counter from './components/counter/Counter';
 
 import ComponentDidUpdateDemo from './components/lifeCycleDemo/ComponentDidUpdateDemo';
 import GetDerivedStateFromPropsDemo from './components/lifeCycleDemo/GetDerivedStateFromPropsDemo';

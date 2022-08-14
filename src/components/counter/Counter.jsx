@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react';
-import '../styles/Counter.css';
+import './Counter.css';
 
 const Counter = () => {
     const [counter, setCounter] = useState(0)

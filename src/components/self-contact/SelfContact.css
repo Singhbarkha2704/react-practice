@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contact{
+    border: 1px solid green;
+    background-color: rgb(48,48,48);
+}
+
+.head{
+   color: whitesmoke;
+   font-weight: 600; 
+   font-size: 3.123rem;
+   text-align: center;
+   text-decoration: solid underline;
+   margin: 3rem;
+   font-size: 600;
+   text-shadow: 2px 2px 2px green;
+}
+
+.form{
+    position: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    align-items: center !important;
+    border: 2px solid #000000;
+    padding: 3rem;
+    background-color: teal;
+    width:50%;
+    align-items: center;
+    margin-left: 25%;
+    border-radius: 9px;
+    box-shadow: 5px 5px 3px grey;
+}
+
+.create-head{
+    color: white;
+}
+
+
+.card{
+    width: 15rem;
+    border: 2px solid teal;
+    box-shadow:3px 3px 2px green;
+    padding:6px;
+}
+
+.all-contact{
+    font-weight: 900;
+    color: teal;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 20.125rem;
+    border: 2px solid #FFFFFF ;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width:50%;
+    text-shadow: 1px 2px 1px green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+.card-title{
+    font-weight: 600;
+    font-family: cursive;
+    text-shadow: 1px 1px 1px pink;   
+}
+
+.row{
+    padding: 20px;
+}

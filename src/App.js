@@ -18,6 +18,7 @@ import TaskManager from './components/task-manager/TaskManager';
 import Data from './components/task-manager/TasksData'
 import SelfContact from './components/self-contact/SelfContact';
 import UseState from './components/functionalComponents/UseState';
+import Header from './components/header/Header'
 
 
 
@@ -26,6 +27,7 @@ function App() {
     <div className="App">
       
       <BrowserRouter>
+        <Header/>
         <Routes>
           <Route path='/' element={<Counter/>}/>
           {/* <Route path='/timer' element={<Timer/>}/> */}
